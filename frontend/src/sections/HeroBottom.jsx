@@ -9,15 +9,15 @@ export function HeroBottom() {
         revealText={
           <p
             className="mx-auto text-center text-4xl font-bold text-slate-800 dark:text-white">
-            The first rule of MRR Club is you do not talk about MRR Club. The
-            second rule of MRR Club is you DO NOT talk about MRR Club.
+            Unlock your potential with LearnSphere. Where knowledge meets innovation,<br />
+            and learning never stops.
           </p>
         }
         className="h-[40rem] rounded-md border text-white dark:text-black">
-        Discover the power of{" "}
-        <span className="text-blue-500">Tailwind CSS v4</span> with native CSS
-        variables and container queries with
-        <span className="text-blue-500">advanced animations</span>.
+        Explore the future of learning with{" "}
+        <span className="text-blue-500">interactive courses</span> and{" "}
+        <span className="text-blue-500">AI-powered insights</span> at{" "}
+        <span className="text-blue-500">LearnSphere</span>.
       </MaskContainer>
     </div>
   );

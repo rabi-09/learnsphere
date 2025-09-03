@@ -16,8 +16,8 @@ function App() {
     <Hero/>
     <HeroBottom />
     <Features/>
-    <Cards/>
     <Services/>
+    <Cards/>
     <FinalCTA/>
     <Faq/>
     <Footer/>

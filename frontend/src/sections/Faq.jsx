@@ -6,26 +6,32 @@ const Faq = () => {
 
   const faqData = [
     {
-      question: "How can I report an illegal billboard?",
-      answer: "You can capture a photo of the billboard using our app and upload it. The system will automatically tag the location and submit it to authorities."
+      question: "How can I personalize my learning experience on LearnSphere?",
+      answer:
+        "LearnSphere uses AI-driven algorithms to tailor content and courses to your individual learning style, pace, and goals, making your education truly unique and effective.",
     },
     {
-      question: "Is my identity kept private when I report?",
-      answer: "Yes, your personal details remain anonymous. Only the violation details are shared with the authorities."
+      question: "Is my data secure and private while using LearnSphere?",
+      answer:
+        "Absolutely. LearnSphere prioritizes your privacy by securely handling your personal information and keeping your learning activity confidential and protected.",
     },
     {
-      question: "How do authorities verify reported violations?",
-      answer: "Authorities review uploaded images, verify location data, and cross-check against approved billboard permits before taking action."
+      question: "Can I collaborate with peers or instructors on LearnSphere?",
+      answer:
+        "Yes, you can join group projects, participate in live sessions, and engage in forums to collaborate, share ideas, and enhance your learning experience.",
     },
     {
-      question: "What types of violations can I report?",
-      answer: "You can report illegal billboards, expired advertisements, unsafe structures, or non-compliance with city regulations."
+      question: "What types of courses and content are available on LearnSphere?",
+      answer:
+        "LearnSphere offers a wide range of interactive courses including video lessons, quizzes, projects, and AI-powered practice tailored to many subject areas and skill levels.",
     },
     {
-      question: "Do I need internet access to submit a report?",
-      answer: "No. With our ESP32-enabled devices, you can capture and store reports offline. Once the device connected to ESP32 server, the reports are automatically uploaded."
+      question: "Do I need internet connectivity to access LearnSphere's features?",
+      answer:
+        "While an internet connection is required for live updates and collaboration, you can download course materials for offline study and sync progress when you reconnect.",
     },
   ];
+
 
 
   const toggleFAQ = (index) => {
